@@ -47,3 +47,4 @@ data_dict = {
 
 data = pandas.DataFrame(data_dict)
 print(data)
+data.to_csv("student.csv")
