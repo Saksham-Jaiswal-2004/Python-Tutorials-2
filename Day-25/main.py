@@ -20,5 +20,30 @@
 import pandas
 
 data = pandas.read_csv("weather_data.csv")
+# print(type(data))
+# print(data["temp"])
+
+# data_dict = data.to_dict()
+# print(data_dict)
+
+temp_list = data["temp"].to_list()
+print("Average Temperature:",sum(temp_list)/len(temp_list))
+
+print(data["temp"].mean())
+
+print(data["temp"].max())
+print(data["temp"].min())
+
+print(data[data.day == "Monday"])
+print(data[data.temp == data.temp.max()])
+
+# data["temp"] and data.temp both are same
+
+# Creating a Dataframe
+data_dict = {
+    "students": ["Amy", "James", "Angela"],
+    "scores": [76, 56, 65]
+}
+
+data = pandas.DataFrame(data_dict)
 print(data)
-print(data["temp"])
