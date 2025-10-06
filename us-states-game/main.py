@@ -28,5 +28,20 @@ while len(guessed_states)<50:
         t.goto(state_data.x.item(), state_data.y.item())
         t.write(state_data.state.item())
         guessed_states.append(answer_state)
+    elif answer_state == "Exit":
+        break
+
+left_states = []
+for i in range(len(all_states)):
+    if not all_states[i] in guessed_states:
+        left_states.append(all_states[i])
+
+print(len(left_states))
+left_states_data = {
+    "Left States": left_states
+}
+
+left_data = pandas.DataFrame(left_states_data)
+left_data.to_csv("states_to_learn.csv")
 
 screen.exitonclick()
