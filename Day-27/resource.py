@@ -18,7 +18,7 @@ def action():
 button = Button(text="Click Me", command=action)
 button.pack()
 
-#Entries
+#Entries GUI
 entry = Entry(width=30)
 #Add some text to begin with
 entry.insert(END, string="Some text to begin with.")
