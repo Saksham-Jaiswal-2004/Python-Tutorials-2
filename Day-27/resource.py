@@ -4,11 +4,12 @@ from tkinter import *
 window = Tk()
 window.title("Widget Examples")
 window.minsize(width=500, height=500)
+window.config(padx=10, pady=10) # Adding padding to window
 
 #Labels
 label = Label(text="This is old text")
 label.config(text="This is new text")
-label.pack()
+label.place(x=0, y=100)
 
 #Buttons
 def action():
