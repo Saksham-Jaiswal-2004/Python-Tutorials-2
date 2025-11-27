@@ -11,5 +11,6 @@ except KeyError as error_message:
 else:
     print("This is else block")
 finally:
+    raise KeyError("User raised error!")
     file.close()
     print("Execution Completed!")
