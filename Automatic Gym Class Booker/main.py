@@ -14,8 +14,8 @@ chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
 driver = webdriver.Chrome(options=chrome_options)
 
 SITE_URL = "https://appbrewery.github.io/gym/"
-ACCOUNT_EMAIL = "sakshamjaiswal@test.com"
-ACCOUNT_PASSWORD = "GymJanaHai*1234"
+ACCOUNT_EMAIL = ""
+ACCOUNT_PASSWORD = ""
 
 driver.get(SITE_URL)
 
