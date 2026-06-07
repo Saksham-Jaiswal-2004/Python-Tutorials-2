@@ -1,0 +1,7 @@
+2026/06/07-16:45:26.422 a52c8 Reusing MANIFEST C:\Users\HP\PycharmProjects\PythonProject\Day 16-100\Automatic Gym Class Booker\chrome_profile\Default\IndexedDB\https_appbrewery.github.io_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/07-16:45:26.423 a52c8 Recovering log #10
+2026/06/07-16:45:26.423 a52c8 Reusing old log C:\Users\HP\PycharmProjects\PythonProject\Day 16-100\Automatic Gym Class Booker\chrome_profile\Default\IndexedDB\https_appbrewery.github.io_0.indexeddb.leveldb/000010.log 
+2026/06/07-16:45:26.438 a52c8 Compacting 1@1 + 1@2 files
+2026/06/07-16:45:26.451 a52c8 Generated table #13@1: 1843 keys, 61792 bytes
+2026/06/07-16:45:26.452 a52c8 Compacted 1@1 + 1@2 files => 61792 bytes
+2026/06/07-16:45:26.452 a52c8 compacted to: files[ 0 0 1 0 0 0 0 ]
